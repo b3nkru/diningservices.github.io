@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busyness Tracker</title>
+    <style>
+        .blockOpen{
+            border-color: black;
+            border-style: solid;
+            border-radius: 50px;
+            border-width: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 2%;
+    margin-top: 2%;
+    vertical-align: top;
+
+    background-color: green;
+        }
+
+        .blockClosed{
+            border-radius: 50px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: black;
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+    margin-right: 2%;
+    vertical-align: top;
+
+    background-color: red;
+        }
+        .low{
+            font-size: 30px;
+            color: aqua
+        }
+        .med{
+            font-size: 30px;
+            color: orange
+        }
+        .high{
+            font-size: 30px;
+            color: red;
+        }
+
+    </style>
+</head>
+<body style="background-color: #F76902;">
+    <h1 style="text-align: center;">Busyness Tracker</h1>
+
+    <div style="text-align: center;">
+    <div>
+        <h2 style="margin-top: 2%;">Open Locations</h2>
+        <div class="blockOpen">Gracie's
+            <p class="med">Medium</p>
+        </div>
+
+        <div class="blockOpen">Beanz
+            <p class="high">High</p>
+        </div>
+
+        <div class="blockOpen">Ctr Alt Deli
+            <p class="low">Low</p>
+        </div>
+
+        <div class="blockOpen">Midnight Oil
+            <p class="med">Medium</p>
+        </div>
+
+        <div class="blockOpen">Rit Sports Zone
+            <p class="high">High</p>
+        </div>
+    </div>
+    <h2 style="margin-top: 2%;">Closed Locations</h2>
+    <div>
+        <div class="blockClosed">The Commons</div>
+        <div class="blockClosed">Brick City Cafe</div>
+        <div class="blockClosed">Cantina and Grille</div>
+        <div class="blockClosed">Java's</div>
+        <div class="blockClosed">Nathan's Soup and Salad</div>
+    </div>
+</div>
+</body>
+</html>
